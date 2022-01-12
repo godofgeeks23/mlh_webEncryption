@@ -17,15 +17,10 @@
         <div class="flex justify-center items-center md:w-2/3">
             <input class="bg-gray-200 border-2 border-gray-200 rounded w-1/2 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="secret" type="text" value="Jane Doe">
         </div>
-        <button class="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"id="submit" onclick="savecipher()">Save My Secret</button>
-    </div>
-    <div class="flex flex-col justify-center items-center h-screen">
-        <div>Enter your secret
-        </div>
-        <div class="flex justify-center items-center md:w-2/3">
-            <input class="bg-gray-200 border-2 border-gray-200 rounded w-1/2 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="secret" type="text" value="Jane Doe">
-        </div>
-        <button class="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"id="submit" onclick="savecipher()">Save My Secret</button>
+        <button class="my-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"id="submit" onclick="savecipher()">Save My Secret</button>
+        <div>Reveal My Secret</div>
+        <input type="file" name="inputfile" id="inputfile">
+        <button class="my-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"id="submit" onclick="decryptcipher()">Reveal My Secret</button>
     </div>
 </body>
 
